@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ตลาดสุขใจ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      background-color: #fff8f0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #388E3C;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #2e7d32;
+    }
+
+    .banner {
+      background-image: url('https://via.placeholder.com/1200x300?text=ยินดีต้อนรับสู่ตลาดสุขใจ');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+    }
+
+    .section-title {
+      text-align: center;
+      padding: 40px 10px 10px;
+      font-size: 24px;
+      color: #2e7d32;
+    }
+
+    .market-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .shop {
+      background-color: white;
+      width: 250px;
+      margin: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .shop img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .shop h3 {
+      margin: 15px 10px 5px;
+    }
+
+    .shop p {
+      color: #555;
+      font-size: 14px;
+      padding: 0 10px 10px;
+    }
+
+    .shop button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .shop button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ตลาดสุขใจ</h1>
+    <p>รวมร้านค้าชุมชน สินค้าเกษตร ของดีจากทั่วไทย</p>
+  </header>
+
+  <nav>
+    <a href="#">หน้าแรก</a>
+    <a href="#">ร้านค้า</a>
+    <a href="#">หมวดหมู่</a>
+    <a href="#">ติดต่อเรา</a>
+  </nav>
+
+  <div class="banner"></div>
+
+  <h2 class="section-title">ร้านค้าทั้งหมด</h2>
+
+  <div class="market-container">
+    <div class="shop">
+      <img src="https://via.placeholder.com/250x160?text=ร้านผักสด" alt="ร้านผักสด">
+      <h3>ร้านผักสดเจ๊น้อย</h3>
+      <p>จำหน่ายผักออร์แกนิกสดใหม่ทุกวันจากสวน</p>
+      <button>ดูร้านค้า</button>
+    </div>
+
+    <div class="shop">
+      <img src="https://via.placeholder.com/250x160?text=ร้านผลไม้" alt="ร้านผลไม้">
+      <h3>สวนผลไม้คุณยาย</h3>
+      <p>มะม่วงน้ำดอกไม้ ทุเรียน มังคุด สดจากสวน</p>
+      <button>ดูร้านค้า</button>
+    </div>
+
+    <div class="shop">
+      <img src="https://via.placeholder.com/250x160?text=ร้านของแห้ง" alt="ร้านของแห้ง">
+      <h3>ของแห้งป้าสมใจ</h3>
+      <p>ปลาแห้ง น้ำพริก ข้าวเกรียบ ครบในที่เดียว</p>
+      <button>ดูร้านค้า</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 ตลาดสุขใจ | ติดต่อเรา: 099-999-9999 | Email: market@example.com</p>
+  </footer>
+
+</body>
+</html>
